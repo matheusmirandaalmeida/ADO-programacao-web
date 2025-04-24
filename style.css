@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 1366px;
+}
+
+header {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px 80px;
+}
+
+.description h2, .testimonials h2, .pricing h2, .faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description p, .faq p {
+    max-width: 900px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+ul {
+    list-style: disc;
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 20px;
+}
+
+.steps ol {
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 20px;
+}
+
+.testimonials .cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.testimonial {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-style: italic;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+}
+
+.pricing .plans {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.plan {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.plan h3 {
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    padding-left: 20px;
+}
+
+.plan button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+}
+
+.faq .faq-item {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 900px;
+}
