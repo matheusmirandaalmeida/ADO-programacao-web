@@ -12,15 +12,28 @@ body {
 }
 
 header {
-    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+    background: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb) no-repeat center center / cover;
     color: white;
     text-align: center;
     padding: 4rem 2rem;
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 60px;
+    height: 60px;
+    animation: fadeInDown 1s ease-in-out;
 }
 
 header h1 {
@@ -115,6 +128,11 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+.img-footer {
+    height: 8rem;
+    width: 8rem;
 }
 
 @keyframes fadeInDown {
